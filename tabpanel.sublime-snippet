@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tb-tabs v-model="${1:activeName}">
+  <tb-tab-pane label="${2:hello}" name="${3:first}">${4:hello world}</tb-tab-pane>
+  <tb-tab-pane label="${5:world}" name="${6:second}">${7:hello world2}</tb-tab-pane>
+</tb-tabs>
+]]></content>
+  <tabTrigger>tb-tabs</tabTrigger>
+</snippet>

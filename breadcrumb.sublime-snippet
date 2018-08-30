@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<tb-breadcrumb>
+  <tb-breadcrumb-one label="${1:铜板街}" url="${2:/path}"></tb-breadcrumb-one>
+  <tb-breadcrumb-one label="${3:铜金所}"></tb-breadcrumb-one>
+  <tb-breadcrumb-one label="${4:铜花}" :active="true"></tb-breadcrumb-one>
+</tb-breadcrumb>
+]]></content>
+  <tabTrigger>tb-breadcrumb</tabTrigger>
+</snippet>

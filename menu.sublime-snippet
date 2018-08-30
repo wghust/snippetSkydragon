@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tb-menu>
+  <tb-menu-item label="${1:一级}" index="${2:1}" icon="${3:comment-video}">
+  </tb-menu-item>
+</tb-menu>
+]]></content>
+  <tabTrigger>tb-menu</tabTrigger>
+</snippet>

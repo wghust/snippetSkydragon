@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+this.\$Dialog({
+  type: '${1:confirm}',
+  title: '${2:确认删除}',
+  info: '${3:删除后无法还原}',
+  confirmText: '${4:确定}',
+  cancelText: '${5:取消}',
+  onCancel() {
+    console.log('我点了Cancel-btn')
+  },
+  onConfirm() {
+    console.log('我点了Confirm-btn')
+  }
+});
+]]></content>
+  <tabTrigger>tb-dialog</tabTrigger>
+</snippet>

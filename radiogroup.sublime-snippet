@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tb-radio-group v-model="${1:checked}">
+  <tb-radio label="${2:say}" :inline="${3:true}" name="lt">${4:labelOne}</tb-radio>
+  <tb-radio label="${5:what}" :inline="${6:true}" name="lt">${7:labelTwo}</tb-radio>
+</tb-radio-group>
+]]></content>
+  <tabTrigger>tb-radio-group</tabTrigger>
+</snippet>

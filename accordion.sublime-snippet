@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tb-accordion>
+  <tb-accordion-item label="${1:Collapsible Group Item #1}" :show="${2:true}"></tb-accordion-item>
+  <tb-accordion-item label="${3:Collapsible Group Item #2}"></tb-accordion-item>
+</tb-accordion>
+]]></content>
+  <tabTrigger>tb-accordion</tabTrigger>
+</snippet>

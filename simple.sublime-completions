@@ -1,0 +1,71 @@
+{
+  "score": "*",
+
+  "completions": [{
+    "trigger": "tb-row",
+    "contents": "<tb-row>\n  <tb-col :sm=\"${1:2}\"></tb-col>\n</tb-row>"
+  }, {
+    "trigger": "tb-col",
+    "contents": "<tb-col :sm=\"${1:2}\"></tb-col>"
+  }, {
+    "trigger": "tb-icon",
+    "contents": "<tb-icon :icon=\"${1:icon}\" size=\"${2:12px}\"></tb-icon>"
+  }, {
+    "trigger": "tb-btn",
+    "contents": "<tb-btn type=\"${1:primary}\">${2:按钮}</tb-btn>"
+  }, {
+    "trigger": "tb-btn-group",
+    "contents": "<tb-btn-group>\n  <tb-btn type=\"${1:primary}\">${2:Primary}</tb-btn>\n  <tb-btn type=\"${3:primary}\">${4:Primary2}</tb-btn></tb-btn-group>"
+  }, {
+    "trigger": "tb-form-item",
+    "contents": "<tb-form-item label=\"${1:项目名}\" position=\"${2:left}\" align=\"${3:left}\">\n  // 输入框\n</tb-form-item>"
+  }, {
+    "trigger": "tb-input-number",
+    "contents": "<tb-input-number v-model=\"${1:inputNumber}\" :max=\"${2:11}\" :min=\"${3:5}\" :step=\"${4:2}\"></tb-input-number>"
+  }, {
+    "trigger": "tb-select-input",
+    "contents": "<tb-select-input v-model=\"${1:selectValue}\" :options=\"${2:options}\" :filter=\"${3:true}\" :multi=\"${4:true}\" placeholder=\"${5:请选择产品}\"></tb-select-input>"
+  }, {
+    "trigger": "tb-cascader",
+    "contents": "<tb-cascader v-model=\"${1:cascaderVal}\" :options=\"${2:cascaderOptions}\" placeholder=\"${3:请选择}\"></tb-cascader>"
+  }, {
+    "trigger": "tb-checkbox",
+    "contents": "<tb-checkbox v-model=\"${1:checked}\" label=\"${2:hello}\" true-label=\"${3:hello}\" false-label=\"${4:world}\"></tb-checkbox>"
+  }, {
+    "trigger": "tb-radio",
+    "contents": "<tb-radio v-model=\"${1:checked}\" label=\"${2:hello}\" name=\"lt\"></tb-radio>"
+  }, {
+    "trigger": "tb-switch",
+    "contents": "<tb-switch label=\"${1:hello}\" bgmcolor=\"${2:red|\" v-model=\"${3:switchValue}\"></tb-switch>"
+  }, {
+    "trigger": "tb-date-time",
+    "contents": "<tb-date-time v-model=\"${1:dateTime}\" type=\"${2:datetime}\"></tb-date-time>"
+  }, {
+    "trigger": "tb-tab-pane",
+    "contents": "<tb-tab-pane label=\"${1:hello}\" name=\"${2:first}\">${3:hello world}</tb-tab-pane>"
+  }, {
+    "trigger": "tb-menu-item",
+    "contents": "<tb-menu-item label=\"${1:二级}\" index=\"${2:2}\" icon=\"${3:tv-play}\"></tb-menu-item>"
+  }, {
+    "trigger": "tb-modal",
+    "contents": "<tb-modal v-model=\"show\" title=\"铜板街\" :bg-close=\"false\" :has-close=\"true\" size=\"md\">\n  modal内容\n</tb-modal>"
+  }, {
+    "trigger": "tb-alert",
+    "contents": "<tb-alert type=\"danger\" :has-close=\"true\" @close=\"closeAlert\" :show=\"alertShow\">今日存在20个进件需要处理</tb-alert>"
+  }, {
+    "trigger": "tb-page",
+    "contents": "<tb-page :cur-page=\"cur\" :per-num=\"10\" :total-num=\"200\" @select=\"selectPage\"></tb-page>"
+  }, {
+    "trigger": "tb-breadcrumb-one",
+    "contents": "<tb-breadcrumb-one label=\"${1:铜板街}\" url=\"${2:/path}\"></tb-breadcrumb-one>"
+  }, {
+    "trigger": "tb-rate",
+    "contents": "<tb-rate :star-num=\"${1:5}\" icon=\"${2:star}\" size=\"${3:22px}\" v-model=\"${4:rateNum}\"></tb-rate>"
+  }, {
+    "trigger": "tb-badge",
+    "contents": "<tb-badge :count=\"${1:222}\"></tb-badge>"
+  }, {
+    "trigger": "tb-progress",
+    "contents": "<tb-progress :percent=\"${1:50}\" type=\"${2:warning}\" :striped=\"${3:true}\"></tb-progress>"
+  }]
+}

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+this.\$Message({
+  type: '${1:success}',
+  message: '${2:新垣结衣好漂亮}',
+  position: '${3:centertop}'
+});
+]]></content>
+  <tabTrigger>tb-message</tabTrigger>
+</snippet>

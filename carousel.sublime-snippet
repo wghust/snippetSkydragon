@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tb-carousel :active-num="${1:activeNum}">
+  <tb-carousel-item>
+  </tb-carousel-item>
+</tb-carousel>
+]]></content>
+  <tabTrigger>tb-carousel</tabTrigger>
+</snippet>

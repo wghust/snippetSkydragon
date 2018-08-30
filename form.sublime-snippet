@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<tb-form>
+  <tb-form-item label="${1:项目名}" position="${2:left}" align="${3:left}">
+  // 输入框
+  </tb-form-item>
+</tb-form>
+]]></content>
+  <tabTrigger>tb-form</tabTrigger>
+</snippet>

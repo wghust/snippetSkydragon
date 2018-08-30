@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tb-input v-model="${1:value}" placeholder="${2:helloworld}">
+  <template slot="prepend">http://</template>
+  <template slot="append">.com</template>
+</tb-input>
+]]></content>
+  <tabTrigger>tb-input</tabTrigger>
+</snippet>

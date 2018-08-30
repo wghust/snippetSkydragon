@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<tb-checkbox-group v-model="${1:checked}">
+  <tb-checkbox label="${2:say}" :inline="${3:true}">${4:labelOne}</tb-checkbox>
+  <tb-checkbox label="${5:what}" :inline="${6:true}">${7:labelTwo}</tb-checkbox>
+</tb-checkbox-group>
+]]></content>
+  <tabTrigger>tb-checkbox-group</tabTrigger>
+</snippet>

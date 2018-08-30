@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+this.\$Tooltip({
+  ele: '${1:#oneTip}',
+  type: '${2:default}',
+  message: '${3:显示顶部消息}',
+  position: '${4:top}'
+});
+
+]]></content>
+  <tabTrigger>tb-tooltip</tabTrigger>
+</snippet>

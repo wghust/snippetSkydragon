@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+this.\$ImgPreview({
+  url: '${1:path}', // 支持多图预览
+  onOpen () {
+    // 开始图片预览时执行
+    console.log('显示图片预览');
+  },
+  onClose () {
+    // 关闭图片预览后执行
+    console.log('关闭图片预览');
+  }
+});
+]]></content>
+  <tabTrigger>tb-imgpreview</tabTrigger>
+</snippet>

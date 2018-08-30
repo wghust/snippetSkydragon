@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<tb-card>
+  <tb-card-header>
+    <h2>${1:标题}</h2>
+  </tb-card-header>
+  <tb-card-body class="tb-card-padding">
+    <!-- 内容 -->
+  </tb-card-body>
+  <tb-card-footer>
+    <!-- 内容 -->
+  </tb-card-footer>
+</tb-card>
+]]></content>
+  <tabTrigger>tb-card</tabTrigger>
+</snippet>
